@@ -1,37 +1,37 @@
 # Prettify JSON
 
-Скрипт выводит получаемые из файла данные в читабельном виде PrettyPrint.
+Скрипт возвращает получаемые из файла данные в читабельном виде PrettyPrint.
 
+# Как запустить
 
-# Quickstart
+Запуск на Linux, Python 3.5:
 
-Example of script launch on Linux, Python 3.5:
+    [user@server ]$ python3.5 pprint_json.py <path to file>
+    <path to file> - путь к файлу с исходными данными
 
-```#!bash
+# Пример вывода:
 
-$ python pprint_json.py <path to file>
-
-<path to file> - путь к файлу с исходными данными
-
-# TODO add output example
-
-[
     {
-        "Cells": {
-            "Address": "улица Академика Павлова, дом 10",
-            "AdmArea": "Западный административный округ",
-            "ClarificationOfWorkingHours": null,
-            "District": "район Кунцево",
-            "IsNetObject": "да",
-            "Name": "Ароматный Мир",
-            "OperatingCompany": "Ароматный Мир",
-            "PublicPhone": [
-                {
-                    "PublicPhone": "(495) 777-51-95"
-                }
+      "orderID": 12345,
+      "shopperName": "John Smith",
+      "shopperEmail": "johnsmith@example.com",
+      "contents": [
+        {
+          "productID": 34,
+          "productName": "SuperWidget",
+          "quantity": 1
+        },
+        {
+          "productID": 56,
+          "productName": "WonderWidget",
+          "quantity": 3
+        }
+      ],
+      "orderCompleted": true
+    }
 
-```
 
-# Project Goals
+# Цель проекта
 
-The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
+Код написан в образовательных целях
+[DEVMAN.org](https://devman.org)
