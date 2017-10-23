@@ -1,17 +1,16 @@
-# Форматирование
+# Prettify JSON
 
-Скрипт возвращает получаемые из файла данные в читабельном виде PrettyPrint в формате json.
+This script allows to make the JSON data readable and pretty looking.
 
-# Как запустить
+# Quickstart
 
-Запуск на Linux:
+Linux:
 
     [user@server ]$ python3.5 pprint_json.py <path to file>
-    <path to file> - путь к файлу с исходными данными
+    <path to file> - path to file, which contain JSON data
 
-Запуск на Windows происходит аналогичным образом
 
-# Пример вывода:
+# Example
 
     {
       "orderID": 12345,
@@ -32,8 +31,6 @@
       "orderCompleted": true
     }
 
+# Project Goals
 
-# Цель проекта
-
-Код написан в образовательных целях
-[DEVMAN.org](https://devman.org)
+    The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
