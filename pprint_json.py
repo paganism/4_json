@@ -9,8 +9,8 @@ def load_data(filepath):
 
 
 def pretty_print_json(data_for_pprint):
-    prettyjson = json.dumps(json.loads(data_for_pprint), indent=4, sort_keys=True, ensure_ascii=False)
-    return prettyjson
+    pretty_json = json.dumps(json.loads(data_for_pprint), indent=4, sort_keys=True, ensure_ascii=False)
+    return pretty_json
 
 
 if __name__ == '__main__':
