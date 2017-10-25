@@ -3,8 +3,8 @@ import sys
 
 
 def load_data(filepath):
-    with open(filepath, 'r') as f:
-        raw_data = f.read()
+    with open(filepath, 'r') as file_reader:
+        raw_data = file_reader.read()
     return raw_data
 
 
